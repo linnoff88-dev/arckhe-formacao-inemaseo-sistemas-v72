@@ -154,7 +154,7 @@
           },
           {
             "rot": "Real log, filtered (Oct 19, 2026)",
-            "html": "<p>nginx log from desenho.inema.pro, Oct 5 to Oct 19, 2026, already run through <code>filtrar</code> (the original had 3,082 lines; 8 were left, only bots with an official IP):</p><pre>8 lines, 8 from bots (training 6, search 2); fake 0; never visited 0/1 → saida/real/relatorio.html</pre><p>And <code>filtrar</code> on the mock sample:</p><pre>16 of 23 line(s) kept (only bots with an official IP) → /tmp/bots-only.log</pre>"
+            "html": "<p>nginx log from desenho.ARCKHÉ.pro, Oct 5 to Oct 19, 2026, already run through <code>filtrar</code> (the original had 3,082 lines; 8 were left, only bots with an official IP):</p><pre>8 lines, 8 from bots (training 6, search 2); fake 0; never visited 0/1 → saida/real/relatorio.html</pre><p>And <code>filtrar</code> on the mock sample:</p><pre>16 of 23 line(s) kept (only bots with an official IP) → /tmp/bots-only.log</pre>"
           },
           {
             "rot": "Common mistakes",
@@ -264,7 +264,7 @@
       "links": [
         {
           "t": "botlog: README and official lists",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/botlog",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/botlog",
           "icone": "terminal"
         },
         {

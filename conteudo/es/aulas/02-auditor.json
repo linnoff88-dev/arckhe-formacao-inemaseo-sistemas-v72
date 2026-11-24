@@ -37,7 +37,7 @@
           "icone": "nuvem",
           "titulo": "URL inicial",
           "sub": "home o carpeta",
-          "detalhe": "Le pasas la home (o la carpeta de una guía en github.io). Si redirige a otro host, como inema.club a www.inema.club, sigue el destino. El alcance es el mismo host y la misma carpeta."
+          "detalhe": "Le pasas la home (o la carpeta de una guía en github.io). Si redirige a otro host, como ARCKHÉ AI a www.ARCKHÉ AI, sigue el destino. El alcance es el mismo host y la misma carpeta."
         },
         {
           "icone": "cadeado",
@@ -141,7 +141,7 @@
     {
       "tipo": "codigo",
       "titulo": "Los comandos del auditor",
-      "sub": "Ejecútalo desde la carpeta ferramentas/auditor de inemaseo-sistemas.",
+      "sub": "Ejecútalo desde la carpeta ferramentas/auditor de ARCKHÉseo-sistemas.",
       "blocos": [
         {
           "rot": "Terminal · tu sitio",
@@ -164,7 +164,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<p><code>python3 auditor.py https://inema.club --max 50</code> (sin -q, lista acortada):</p><pre>  [ 1/50] 200 https://www.inema.club/\n  [ 2/50] 200 https://www.inema.club/en/\n  (…)\n  [50/50] 200 https://www.inema.club/conhecimento/metodologia-de-ensino-do-inema/\nwww.inema.club: 50 páginas, 0 crítico(s), 1 importante(s), 2 melhoria(s). Relatório: …/relatorio.html\n  [importante] Pouco texto no HTML entregue (&lt; 80 palavras)</pre><p>En el <code>achados.csv</code>, el importante señala dos fichas: <code>/conhecimento/curso-atia/ (77)</code> y <code>/conhecimento/curso-codex-basico/ (78)</code>. El JSON registra 62 solicitudes y 1.287 URLs aún en la cola.</p>"
+            "html": "<p><code>python3 auditor.py https://ARCKHÉ AI --max 50</code> (sin -q, lista acortada):</p><pre>  [ 1/50] 200 https://www.ARCKHÉ AI/\n  [ 2/50] 200 https://www.ARCKHÉ AI/en/\n  (…)\n  [50/50] 200 https://www.ARCKHÉ AI/conhecimento/metodologia-de-ensino-do-ARCKHÉ/\nwww.ARCKHÉ AI: 50 páginas, 0 crítico(s), 1 importante(s), 2 melhoria(s). Relatório: …/relatorio.html\n  [importante] Pouco texto no HTML entregue (&lt; 80 palavras)</pre><p>En el <code>achados.csv</code>, el importante señala dos fichas: <code>/conhecimento/curso-atia/ (77)</code> y <code>/conhecimento/curso-codex-basico/ (78)</code>. El JSON registra 62 solicitudes y 1.287 URLs aún en la cola.</p>"
           },
           {
             "rot": "robots y CDN (19/10/2026)",
@@ -278,7 +278,7 @@
       "links": [
         {
           "t": "auditor: README con todas las verificaciones y fuentes",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/auditor",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/auditor",
           "icone": "terminal"
         },
         {

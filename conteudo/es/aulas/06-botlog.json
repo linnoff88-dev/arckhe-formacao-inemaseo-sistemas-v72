@@ -154,7 +154,7 @@
           },
           {
             "rot": "Log real filtrado (19/10/2026)",
-            "html": "<p>Log de nginx de desenho.inema.pro, 05/10 a 19/10/2026, ya pasado por <code>filtrar</code> (el original tenía 3.082 líneas; quedaron 8, solo robots con IP oficial):</p><pre>8 linhas, 8 de robô (treino 6, busca 2); falsos 0; nunca visitadas 0/1 → saida/real/relatorio.html</pre><p>Y el <code>filtrar</code> en la muestra montada:</p><pre>16 de 23 linha(s) mantidas (só robôs com IP oficial) → /tmp/solo-robots.log</pre>"
+            "html": "<p>Log de nginx de desenho.ARCKHÉ.pro, 05/10 a 19/10/2026, ya pasado por <code>filtrar</code> (el original tenía 3.082 líneas; quedaron 8, solo robots con IP oficial):</p><pre>8 linhas, 8 de robô (treino 6, busca 2); falsos 0; nunca visitadas 0/1 → saida/real/relatorio.html</pre><p>Y el <code>filtrar</code> en la muestra montada:</p><pre>16 de 23 linha(s) mantidas (só robôs com IP oficial) → /tmp/solo-robots.log</pre>"
           },
           {
             "rot": "Errores comunes",
@@ -264,7 +264,7 @@
       "links": [
         {
           "t": "botlog: README y listas oficiales",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/botlog",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/botlog",
           "icone": "terminal"
         },
         {

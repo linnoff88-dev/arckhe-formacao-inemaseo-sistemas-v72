@@ -59,7 +59,7 @@
         {"rot": "Teste de 1 mês (modelo)", "icone": "calendario",
          "conteudo": "# Teste: <fornecedor> — de <dd/mm> a <dd/mm>\npergunta única: <…>\nteto de gasto: <…>   (desligar renovação automática no dia 1)\nchave de API: só no .env local, fora do git; nunca no repositório\nno fim do mês:\n- a decisão foi tomada com o dado? <sim/não>\n- o que o grátis não teria mostrado? <…>\n- continuar, trocar ou cancelar: <…>"},
         {"rot": "Meu plano de ferramentas (modelo)", "icone": "camadas",
-         "conteudo": "# Ferramentas — <seusite.com>\nnúcleo grátis (sempre): Search Console, Bing Webmaster, IndexNow, inemaseo-sistemas (5), agente pela assinatura\nsemana: gsc-historico + leitura do agente + decisoes.md\nmês: auditor, agente-ready, bing-ia (export), botlog (log filtrado), bateria manual de perguntas nas IAs\npago (opcional, com teto): <nenhum | fornecedor + pergunta + mês>"}
+         "conteudo": "# Ferramentas — <seusite.com>\nnúcleo grátis (sempre): Search Console, Bing Webmaster, IndexNow, ARCKHÉseo-sistemas (5), agente pela assinatura\nsemana: gsc-historico + leitura do agente + decisoes.md\nmês: auditor, agente-ready, bing-ia (export), botlog (log filtrado), bateria manual de perguntas nas IAs\npago (opcional, com teto): <nenhum | fornecedor + pergunta + mês>"}
       ]
     },
     {
@@ -162,7 +162,7 @@
       "tipo": "gerador",
       "titulo": "Gere o seu plano com datas",
       "sub": "Escolha a data de início e quanto tempo você tem por semana.",
-      "curso": "inemaSEO 7 · Sistemas",
+      "curso": "ARCKHÉSEO 7 · Sistemas",
       "horas_padrao": 3,
       "degraus": [
         {"titulo": "Aula 1 · De onde vem o dado", "aula": "semrush-mapa"},
@@ -175,7 +175,7 @@
         {"titulo": "Aula 8 · Quando pagar", "aula": "quando-pagar"}
       ],
       "txt": {
-        "titulo": "Plano — inemaSEO 7 · Sistemas",
+        "titulo": "Plano — ARCKHÉSEO 7 · Sistemas",
         "inicio": "Início",
         "ritmo": "Ritmo",
         "termino": "Término previsto",
@@ -222,7 +222,7 @@
         {"t": "open-seo (MIT, sobre DataForSEO)", "href": "https://github.com/every-app/open-seo", "icone": "git"},
         {"t": "Firecrawl: preços", "href": "https://www.firecrawl.dev/pricing", "icone": "nuvem"},
         {"t": "Apify: preços", "href": "https://apify.com/pricing", "icone": "nuvem"},
-        {"t": "Área inemaSEO", "href": "https://eventos.inema.pro/inemaseo/", "icone": "lupa"}
+        {"t": "Área ARCKHÉSEO", "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/", "icone": "lupa"}
       ]
     }
   ]

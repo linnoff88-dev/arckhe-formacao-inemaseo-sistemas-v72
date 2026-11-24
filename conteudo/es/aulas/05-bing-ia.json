@@ -124,7 +124,7 @@
     {
       "tipo": "codigo",
       "titulo": "Importar y cruzar",
-      "sub": "Ejecútalo desde la carpeta ferramentas/bing-ia. El ejemplo del repositorio usa CSV FICTICIOS (números inventados, URLs reales de inema.pro) cruzados con la base real de la clase 4.",
+      "sub": "Ejecútalo desde la carpeta ferramentas/bing-ia. El ejemplo del repositorio usa CSV FICTICIOS (números inventados, URLs reales de ARCKHÉ.pro) cruzados con la base real de la clase 4.",
       "blocos": [
         {
           "rot": "Terminal · importar los exports",
@@ -134,7 +134,7 @@
         {
           "rot": "Terminal · cruzar con el gsc-historico",
           "icone": "terminal",
-          "conteudo": "python3 bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site inema.pro --saida saida/inema.pro"
+          "conteudo": "python3 bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site ARCKHÉ.pro --saida saida/ARCKHÉ.pro"
         },
         {
           "rot": "Terminal · cuando la herramienta no reconoce las columnas",
@@ -147,11 +147,11 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<p>Comando real, <b>datos ficticios</b> (ejemplo del repositorio):</p><pre>FICTICIO_ai-performance-grounding-queries.csv: 6 linha(s) de consultas (colunas {'citacoes': 'Citations', 'consulta': 'Grounding Query', 'data': 'Date'}) → dados/bing.sqlite\nFICTICIO_ai-performance-paginas.csv: 6 linha(s) de paginas (colunas {'url': 'Page', 'citacoes': 'Citations', 'data': 'Date'}) → dados/bing.sqlite\n38 citações em 5 página(s), 6 grounding queries, 4 ideia(s), citadas sem clique no Google 5, clique sem citação 1 → saida/inema.pro/relatorio.html</pre>"
+            "html": "<p>Comando real, <b>datos ficticios</b> (ejemplo del repositorio):</p><pre>FICTICIO_ai-performance-grounding-queries.csv: 6 linha(s) de consultas (colunas {'citacoes': 'Citations', 'consulta': 'Grounding Query', 'data': 'Date'}) → dados/bing.sqlite\nFICTICIO_ai-performance-paginas.csv: 6 linha(s) de paginas (colunas {'url': 'Page', 'citacoes': 'Citations', 'data': 'Date'}) → dados/bing.sqlite\n38 citações em 5 página(s), 6 grounding queries, 4 ideia(s), citadas sem clique no Google 5, clique sem citação 1 → saida/ARCKHÉ.pro/relatorio.html</pre>"
           },
           {
             "rot": "Las listas (ficticio)",
-            "html": "<p><code>paginas.csv</code>, grupo \"sem clique\" (citas ficticias × Google real):</p><pre>sem_clique,…/en/noticias/slopmonster/,23 citações,0 cliques,189 impr.\nsem_clique,…/en/noticias/openai-dots/,6 citações,0 cliques,15 impr.\nsem_clique,https://eventos.inema.pro/oswork/,3 citações,0 cliques,0 impr.</pre><p><code>ideias.csv</code>:</p><pre>what is slopmonster ai,7\nopenai dots agent,5\nclaude opus 5.5 benchmarks,4\nhow to manage ai agents in a company,2</pre>"
+            "html": "<p><code>paginas.csv</code>, grupo \"sem clique\" (citas ficticias × Google real):</p><pre>sem_clique,…/en/noticias/slopmonster/,23 citações,0 cliques,189 impr.\nsem_clique,…/en/noticias/openai-dots/,6 citações,0 cliques,15 impr.\nsem_clique,https://eventos.ARCKHÉ.pro/oswork/,3 citações,0 cliques,0 impr.</pre><p><code>ideias.csv</code>:</p><pre>what is slopmonster ai,7\nopenai dots agent,5\nclaude opus 5.5 benchmarks,4\nhow to manage ai agents in a company,2</pre>"
           },
           {
             "rot": "Errores comunes",
@@ -261,7 +261,7 @@
       "links": [
         {
           "t": "bing-ia: README",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/bing-ia",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/bing-ia",
           "icone": "terminal"
         },
         {

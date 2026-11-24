@@ -1,8 +1,8 @@
-# PLANO — inemaSEO 7 · Sistemas: monte o seu Semrush aberto (v7.2)
+# PLANO — ARCKHÉSEO 7 · Sistemas: monte o seu Semrush aberto (v7.2)
 
-Curso 7 de 7 da Formação inemaSEO (os cursos 1–6 dizem "de 6"; este nasceu depois, quando o núcleo de ferramentas existiu). Público: quem usa terminal e quer medir e auditar o próprio site (ou de clientes) sem ferramenta paga.
+Curso 7 de 7 da Formação ARCKHÉSEO (os cursos 1–6 dizem "de 6"; este nasceu depois, quando o núcleo de ferramentas existiu). Público: quem usa terminal e quer medir e auditar o próprio site (ou de clientes) sem ferramenta paga.
 
-Fontes (não alteradas): `~/projetos/inemaseo-sistemas` (README, `docs/ESPEC.md`, `ferramentas/*/README.md`, código, `exemplos/` com entradas e saídas reais de 19/10/2026), `wifi/longrun/2026-10-19-formacao-inemaseo-v72/SISTEMAS-SEO-FERRAMENTAS.md` (mercado, grátis × pago, open-seo, Firecrawl, Apify), `TENDENCIAS-SEO-GEO-2026-10.md` (régua de 2026), `inemaseo-metodo/docs/METODO.md` (cadência e "máquina com agentes"). Todo comando mostrado foi rodado em 19/10/2026 (só GET em sites públicos do INEMA e arquivos de `exemplos/`); modos que chamam API (gsc `puxar`, `--rdns`) só como modelo.
+Fontes (não alteradas): `~/projetos/ARCKHÉseo-sistemas` (README, `docs/ESPEC.md`, `ferramentas/*/README.md`, código, `exemplos/` com entradas e saídas reais de 19/10/2026), `wifi/longrun/2026-10-19-formacao-ARCKHÉseo-v72/SISTEMAS-SEO-FERRAMENTAS.md` (mercado, grátis × pago, open-seo, Firecrawl, Apify), `TENDENCIAS-SEO-GEO-2026-10.md` (régua de 2026), `ARCKHÉseo-metodo/docs/METODO.md` (cadência e "máquina com agentes"). Todo comando mostrado foi rodado em 19/10/2026 (só GET em sites públicos do ARCKHÉ e arquivos de `exemplos/`); modos que chamam API (gsc `puxar`, `--rdns`) só como modelo.
 
 ## As 8 aulas
 
@@ -35,16 +35,16 @@ Somas à mão: direto 2+2+2+2 = 8; pelo desvio 1+1+2+2+2 = 8 (empata, não passa
 
 ## Decisões tomadas sozinho
 - "curso 7 de 7" no `sub`/`kicker`; os cursos 1–6 dizem "de 6" (anotado no retorno).
-- `lado_card` volta para a área inemaSEO (último curso); `inicio.blocos` lista os 7 cursos.
-- Números do INEMA no texto só da lista "Casos reais"; o resto (notas do agente-ready, achados do auditor, contagens do botlog) fica dentro de `saida` com selo real e data.
+- `lado_card` volta para a área ARCKHÉSEO (último curso); `inicio.blocos` lista os 7 cursos.
+- Números do ARCKHÉ no texto só da lista "Casos reais"; o resto (notas do agente-ready, achados do auditor, contagens do botlog) fica dentro de `saida` com selo real e data.
 - bing-ia: exemplo é FICTÍCIO (rotulado assim no repo e na aula); colunas do export são palpite [a confirmar].
 - Preços (Firecrawl, Apify, Semrush) só com data e "confira no site"; nenhum serviço pago chamado.
 
 ## Resultado (19/10/2026)
-- Publicado: https://inematds.github.io/formacao-inemaseo-sistemas-v72/ (+ `en/`, `es/`).
-- Portão: `validar.py` OK em PT/EN/ES; `--links` só falha no curso 5 (`formacao-inemaseo-agentes-v72`, ainda não publicado). `conferir-tela.cjs` 27 páginas × 2 larguras OK; simconversa percorrida (máx. 8).
-- Saídas reais rodadas em 19/10/2026: testes (5×OK), auditor (inema.club 50 págs, eventos 30), agente-ready (93 e 69; 73 com `webmcp_api` = 0), gsc-historico e bing-ia (exemplos do repo; bing FICTÍCIO), botlog (montado + real filtrado), `rotina.sh semana|mes`, leitura do agente por `claude -p --tools ""` (assinatura).
-- Imagens: 10 pelo Codex; capa EN/ES editadas pelo Codex, com a linha pequena (kicker) redesenhada em Pillow (Codex errou "INEMAŞEO"/"FORMACÍON" duas vezes). Sem flux.
+- Publicado: https://linnoff88-dev.github.io/ (+ `en/`, `es/`).
+- Portão: `validar.py` OK em PT/EN/ES; `--links` só falha no curso 5 (`formacao-ARCKHÉseo-agentes-v72`, ainda não publicado). `conferir-tela.cjs` 27 páginas × 2 larguras OK; simconversa percorrida (máx. 8).
+- Saídas reais rodadas em 19/10/2026: testes (5×OK), auditor (ARCKHÉ AI 50 págs, eventos 30), agente-ready (93 e 69; 73 com `webmcp_api` = 0), gsc-historico e bing-ia (exemplos do repo; bing FICTÍCIO), botlog (montado + real filtrado), `rotina.sh semana|mes`, leitura do agente por `claude -p --tools ""` (assinatura).
+- Imagens: 10 pelo Codex; capa EN/ES editadas pelo Codex, com a linha pequena (kicker) redesenhada em Pillow (Codex errou "ARCKHÉŞEO"/"FORMACÍON" duas vezes). Sem flux.
 - Tradução: 1ª rodada falhou por limite de uso (3.123 textos); 2ª completou. EN: objetivo da aula 7 e ES: lead da aula 6 encurtados à mão (conteúdo + cache). "portão humano" ES = "control humano".
 
 ## Lições

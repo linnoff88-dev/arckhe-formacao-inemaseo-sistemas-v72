@@ -64,9 +64,9 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Saída capturada (19/10/2026)", "html": "<pre>www.inema.club: nota 93/100 (5 páginas, 22 requisições).\n  [falha, peso 2] Link para Sobre ou Contato na home: sem link /sobre, /about ou /contato\n\neventos.inema.pro: nota 69/100 (5 páginas, 15 requisições).\n  [falha, peso 8] Organization ou Person com @id no JSON-LD da home: 0 entidade(s); com @id: 0\n  [falha, peso 5] Autoria identificada: 0 de 5 com autor (meta, rel=author ou JSON-LD)\n  [falha, peso 5] Data de publicação ou atualização: 0 de 5 com data (JSON-LD, meta article ou &lt;time&gt;)\n  [falha, peso 5] Ferramentas WebMCP registradas com document.modelContext.registerTool(): nenhum registerTool() em 2 script(s) de mesma origem + inline</pre>"},
-          {"rot": "Com outro peso (19/10/2026)", "html": "<p>O mesmo eventos.inema.pro com <code>webmcp_api</code> de 5 para 0 em <code>meus-pesos.json</code>:</p><pre>eventos.inema.pro: nota 73/100 (5 páginas, 15 requisições).\n  [falha, peso 8] Organization ou Person com @id no JSON-LD da home: 0 entidade(s); com @id: 0\n  [falha, peso 5] Autoria identificada: 0 de 5 com autor (meta, rel=author ou JSON-LD)\n  [falha, peso 5] Data de publicação ou atualização: 0 de 5 com data (JSON-LD, meta article ou &lt;time&gt;)\n  [falha, peso 4] sameAs ligando a entidade aos perfis oficiais: sem sameAs na entidade</pre><p>A conta: 66 pontos ganhos sobre 95 aplicáveis dá 69; sobre 90, dá 73. A lista do que corrigir primeiro não mudou de ordem no topo.</p>"},
-          {"rot": "Erros comuns", "html": "<ul><li><b>Tratar a nota como ranking</b>: os pesos são decisão editorial do INEMA, com fonte para o porquê, não para o número.</li><li><b>Mudar peso para a nota subir</b>: mude quando tiver motivo e anote; o critério continua no relatório.</li><li><b>Esperar ver ferramenta WebMCP de outra origem</b>: a detecção é estática; script de outro domínio, carregado depois ou em iframe não aparece.</li></ul>"}
+          {"rot": "Saída capturada (19/10/2026)", "html": "<pre>www.ARCKHÉ AI: nota 93/100 (5 páginas, 22 requisições).\n  [falha, peso 2] Link para Sobre ou Contato na home: sem link /sobre, /about ou /contato\n\neventos.ARCKHÉ.pro: nota 69/100 (5 páginas, 15 requisições).\n  [falha, peso 8] Organization ou Person com @id no JSON-LD da home: 0 entidade(s); com @id: 0\n  [falha, peso 5] Autoria identificada: 0 de 5 com autor (meta, rel=author ou JSON-LD)\n  [falha, peso 5] Data de publicação ou atualização: 0 de 5 com data (JSON-LD, meta article ou &lt;time&gt;)\n  [falha, peso 5] Ferramentas WebMCP registradas com document.modelContext.registerTool(): nenhum registerTool() em 2 script(s) de mesma origem + inline</pre>"},
+          {"rot": "Com outro peso (19/10/2026)", "html": "<p>O mesmo eventos.ARCKHÉ.pro com <code>webmcp_api</code> de 5 para 0 em <code>meus-pesos.json</code>:</p><pre>eventos.ARCKHÉ.pro: nota 73/100 (5 páginas, 15 requisições).\n  [falha, peso 8] Organization ou Person com @id no JSON-LD da home: 0 entidade(s); com @id: 0\n  [falha, peso 5] Autoria identificada: 0 de 5 com autor (meta, rel=author ou JSON-LD)\n  [falha, peso 5] Data de publicação ou atualização: 0 de 5 com data (JSON-LD, meta article ou &lt;time&gt;)\n  [falha, peso 4] sameAs ligando a entidade aos perfis oficiais: sem sameAs na entidade</pre><p>A conta: 66 pontos ganhos sobre 95 aplicáveis dá 69; sobre 90, dá 73. A lista do que corrigir primeiro não mudou de ordem no topo.</p>"},
+          {"rot": "Erros comuns", "html": "<ul><li><b>Tratar a nota como ranking</b>: os pesos são decisão editorial do ARCKHÉ, com fonte para o porquê, não para o número.</li><li><b>Mudar peso para a nota subir</b>: mude quando tiver motivo e anote; o critério continua no relatório.</li><li><b>Esperar ver ferramenta WebMCP de outra origem</b>: a detecção é estática; script de outro domínio, carregado depois ou em iframe não aparece.</li></ul>"}
         ]
       }
     },
@@ -94,7 +94,7 @@
         {"p": "Por que o llms.txt pesa só 2?",
          "opcoes": ["Porque é difícil de fazer.", "Porque no maior estudo público 97% dos arquivos não receberam nenhuma requisição.", "Porque o Google exige.", "Porque é proibido."],
          "certa": 1, "explica": "É barato e útil como índice para agentes de código, mas não há evidência de que leve a citação. O guia de IA do Google diz que pode ignorá-lo.", "ref": "passos"},
-        {"p": "Na saída de eventos.inema.pro, o que mais pesa para subir a nota?",
+        {"p": "Na saída de eventos.ARCKHÉ.pro, o que mais pesa para subir a nota?",
          "opcoes": ["Publicar llms.txt.", "Entidade com @id na home (8) e autoria e data nas páginas (5 + 5).", "Trocar a cor do site.", "Bloquear o GPTBot."],
          "certa": 1, "explica": "A saída lista as falhas por peso. llms.txt já estava ok. Bloquear treino é informativo e não muda a nota.", "ref": "codigo"},
         {"p": "WebMCP registrado no site garante citação no ChatGPT?",
@@ -115,7 +115,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "agente-ready: README e pesos.json", "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/agente-ready", "icone": "terminal"},
+        {"t": "agente-ready: README e pesos.json", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/agente-ready", "icone": "terminal"},
         {"t": "WebMCP: especificação (W3C Community Group)", "href": "https://webmachinelearning.github.io/webmcp/", "icone": "arquivo"},
         {"t": "Ahrefs: estudo do llms.txt", "href": "https://ahrefs.com/blog/llmstxt-study/", "icone": "grafico"}
       ]

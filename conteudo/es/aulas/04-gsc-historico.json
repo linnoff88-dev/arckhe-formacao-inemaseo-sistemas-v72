@@ -43,7 +43,7 @@
           "icone": "arquivo",
           "titulo": "gsc_semanal.py",
           "sub": "CSV de la semana",
-          "detalhe": "El script del inemaseo-metodo exporta cada semana un resumen.csv (de marca, sin marca, anónimas) y un CSV por sitio solo con las consultas sin tu marca. Usa la API de Google con tu credencial; el gsc-historico solo lee los archivos."
+          "detalhe": "El script del ARCKHÉseo-metodo exporta cada semana un resumen.csv (de marca, sin marca, anónimas) y un CSV por sitio solo con las consultas sin tu marca. Usa la API de Google con tu credencial; el gsc-historico solo lee los archivos."
         },
         {
           "icone": "memoria",
@@ -93,8 +93,8 @@
             "Sigue las impresiones y los clics sin marca, semana a semana."
           ],
           "exemplo": {
-            "rot": "Caso real de INEMA",
-            "texto": "inema.club, de 16–22/09 a 05–11/10: impresiones sin marca de 8 a 157 y consultas sin marca de 3 a 51, con 0 clics sin marca. Los 2 primeros clics sin marca llegaron en inema.pro (2/293), impulsados por \"curso jev\"."
+            "rot": "Caso real de ARCKHÉ",
+            "texto": "ARCKHÉ AI, de 16–22/09 a 05–11/10: impresiones sin marca de 8 a 157 y consultas sin marca de 3 a 51, con 0 clics sin marca. Los 2 primeros clics sin marca llegaron en ARCKHÉ.pro (2/293), impulsados por \"curso jev\"."
           }
         },
         {
@@ -130,7 +130,7 @@
     {
       "tipo": "codigo",
       "titulo": "Importar y generar el reporte",
-      "sub": "Ejecútalo desde la carpeta ferramentas/gsc-historico. El ejemplo usa los CSV reales de inemaSEO que vienen en el repositorio.",
+      "sub": "Ejecútalo desde la carpeta ferramentas/gsc-historico. El ejemplo usa los CSV reales de ARCKHÉSEO que vienen en el repositorio.",
       "blocos": [
         {
           "rot": "Terminal · importar (carpeta o archivos)",
@@ -140,17 +140,17 @@
         {
           "rot": "Terminal · reporte de un sitio",
           "icone": "terminal",
-          "conteudo": "python3 gsc_historico.py relatorio --db dados/gsc.sqlite --site inema.club --saida saida/inema.club\n# otra comparación: --atual AAAA-MM-DD --anterior AAAA-MM-DD"
+          "conteudo": "python3 gsc_historico.py relatorio --db dados/gsc.sqlite --site ARCKHÉ AI --saida saida/ARCKHÉ AI\n# otra comparación: --atual AAAA-MM-DD --anterior AAAA-MM-DD"
         },
         {
           "rot": "Terminal · cada semana, con tus CSV",
           "icone": "calendario",
-          "conteudo": "# después de gsc_semanal.py (inemaseo-metodo), apunta a la carpeta de él\npython3 gsc_historico.py importar ~/ruta/de/la/carpeta/gsc --db dados/gsc.sqlite\npython3 gsc_historico.py relatorio --db dados/gsc.sqlite --site <tusitio.com> --saida saida/<tusitio.com>"
+          "conteudo": "# después de gsc_semanal.py (ARCKHÉseo-metodo), apunta a la carpeta de él\npython3 gsc_historico.py importar ~/ruta/de/la/carpeta/gsc --db dados/gsc.sqlite\npython3 gsc_historico.py relatorio --db dados/gsc.sqlite --site <tusitio.com> --saida saida/<tusitio.com>"
         },
         {
           "rot": "Modelo · modo API (usa la API de Google; no se ejecutó en este curso)",
           "icone": "cadeado",
-          "conteudo": "# ejecuta gsc_semanal.py con tu credencial (gcloud) e importa; el autor no lo probó en vivo\npython3 gsc_historico.py puxar --script ~/projetos/inemaseo-metodo/tools/gsc_semanal.py --pasta dados/gsc-csv"
+          "conteudo": "# ejecuta gsc_semanal.py con tu credencial (gcloud) e importa; el autor no lo probó en vivo\npython3 gsc_historico.py puxar --script ~/projetos/ARCKHÉseo-metodo/tools/gsc_semanal.py --pasta dados/gsc-csv"
         }
       ],
       "saida": {
@@ -158,11 +158,11 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<pre>importado: 10 linha(s) de resumo, 244 linha(s) de consulta → dados/gsc.sqlite\ninema.club semana 2026-10-11 (comparada com 2026-10-04): sem marca 0 cliques / 157 impr.; subiram 15, caíram 15, pauta 18, páginas sem clique 5 → saida/inema.club/relatorio.html\ninema.pro semana 2026-10-11 (comparada com 2026-10-04): sem marca 2 cliques / 293 impr.; subiram 15, caíram 5, pauta 6, páginas sem clique 6 → saida/inema.pro/relatorio.html</pre>"
+            "html": "<pre>importado: 10 linha(s) de resumo, 244 linha(s) de consulta → dados/gsc.sqlite\nARCKHÉ AI semana 2026-10-11 (comparada com 2026-10-04): sem marca 0 cliques / 157 impr.; subiram 15, caíram 15, pauta 18, páginas sem clique 5 → saida/ARCKHÉ AI/relatorio.html\nARCKHÉ.pro semana 2026-10-11 (comparada com 2026-10-04): sem marca 2 cliques / 293 impr.; subiram 15, caíram 5, pauta 6, páginas sem clique 6 → saida/ARCKHÉ.pro/relatorio.html</pre>"
           },
           {
-            "rot": "Pauta de contenidos y sin clic (inema.club)",
-            "html": "<p>Inicio del <code>pauta.csv</code> (consulta, impresiones, mejor posición, página que aparece hoy):</p><pre>ia para principiantes,6,38.5,…/es/aprender-inteligencia-artificial/\nguía ia principiantes,5,60.8,…/es/aprender-inteligencia-artificial/\ntutorial ia desde cero,5,29.4,…/es/aprender-inteligencia-artificial/</pre><p>Inicio del <code>paginas_sem_clique.csv</code>:</p><pre>…/es/aprender-inteligencia-artificial/,106 impr.,posição 39.1,22 consultas\nhttps://buscas.inema.club/,12 impr.,posição 26.6,6 consultas</pre><p>La página en español ya aparece para estas consultas; la regla de página dueña no la reconoce porque las palabras no están en la dirección. Aquí la decisión es mejorar la página que existe, no escribir otra.</p>"
+            "rot": "Pauta de contenidos y sin clic (ARCKHÉ AI)",
+            "html": "<p>Inicio del <code>pauta.csv</code> (consulta, impresiones, mejor posición, página que aparece hoy):</p><pre>ia para principiantes,6,38.5,…/es/aprender-inteligencia-artificial/\nguía ia principiantes,5,60.8,…/es/aprender-inteligencia-artificial/\ntutorial ia desde cero,5,29.4,…/es/aprender-inteligencia-artificial/</pre><p>Inicio del <code>paginas_sem_clique.csv</code>:</p><pre>…/es/aprender-inteligencia-artificial/,106 impr.,posição 39.1,22 consultas\nhttps://buscas.ARCKHÉ AI/,12 impr.,posição 26.6,6 consultas</pre><p>La página en español ya aparece para estas consultas; la regla de página dueña no la reconoce porque las palabras no están en la dirección. Aquí la decisión es mejorar la página que existe, no escribir otra.</p>"
           },
           {
             "rot": "Errores comunes",
@@ -219,7 +219,7 @@
             "De robots."
           ],
           "certa": 1,
-          "explica": "Es la semana del 05–11/10 de inema.club. Anónimas = total menos de marca menos sin marca. Por eso las tres columnas nunca cuadran sin ella.",
+          "explica": "Es la semana del 05–11/10 de ARCKHÉ AI. Anónimas = total menos de marca menos sin marca. Por eso las tres columnas nunca cuadran sin ella.",
           "ref": "passos"
         },
         {
@@ -272,12 +272,12 @@
       "links": [
         {
           "t": "gsc-historico: README",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/gsc-historico",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/gsc-historico",
           "icone": "terminal"
         },
         {
-          "t": "gsc_semanal.py (inemaseo-metodo)",
-          "href": "https://github.com/inematds/inemaseo-metodo/blob/main/tools/gsc_semanal.py",
+          "t": "gsc_semanal.py (ARCKHÉseo-metodo)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-metodo/blob/main/tools/gsc_semanal.py",
           "icone": "arquivo"
         },
         {

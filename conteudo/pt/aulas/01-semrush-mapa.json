@@ -12,7 +12,7 @@
     {"t": "As camadas de uma suíte de SEO e a origem de cada uma"},
     {"t": "O que o dado do seu próprio site responde de graça"},
     {"t": "O que só existe pago: volume exato, concorrente, backlinks completos"},
-    {"t": "Baixar o inemaseo-sistemas e conferir que tudo roda"}
+    {"t": "Baixar o ARCKHÉseo-sistemas e conferir que tudo roda"}
   ],
   "hero_alt": "Mapa desenhado à mão com caixas e setas sobre uma mesa, com lápis e régua ao lado.",
   "secoes": [
@@ -60,7 +60,7 @@
       "sub": "Só Python 3.10+ com a biblioteca padrão. Nada para instalar além do git.",
       "blocos": [
         {"rot": "Terminal · baixar", "icone": "git",
-         "conteudo": "git clone https://github.com/inematds/inemaseo-sistemas && cd inemaseo-sistemas\npython3 --version"},
+         "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-sistemas && cd ARCKHÉseo-sistemas\npython3 --version"},
         {"rot": "Terminal · rodar os testes (sem rede)", "icone": "terminal",
          "conteudo": "for t in ferramentas/*/; do [ -d $t/tests ] && python3 -m unittest discover -s $t/tests; done"},
         {"rot": "Minhas perguntas × fonte (modelo)", "icone": "lista",
@@ -81,7 +81,7 @@
       "sub": "Guarde a tabela: ela vira o seu plano de ferramentas na aula 8.",
       "exercicios": [
         {"id": "e1", "titulo": "E1 · Baixar e testar", "min": "10 min",
-         "texto": "Clone o inemaseo-sistemas e rode os testes das 5 ferramentas.",
+         "texto": "Clone o ARCKHÉseo-sistemas e rode os testes das 5 ferramentas.",
          "pronto": "o terminal mostra OK cinco vezes, uma por ferramenta."},
         {"id": "e2", "titulo": "E2 · Suas perguntas", "min": "20 min",
          "texto": "Preencha a tabela \"minhas perguntas × fonte\" com pelo menos 5 perguntas que você quer responder sobre o seu site (ou de um cliente).",
@@ -120,7 +120,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "inemaseo-sistemas no GitHub (MIT)", "href": "https://github.com/inematds/inemaseo-sistemas", "icone": "git"},
+        {"t": "ARCKHÉseo-sistemas no GitHub (MIT)", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas", "icone": "git"},
         {"t": "Search Console: guia de desempenho (consultas anônimas)", "href": "https://developers.google.com/search/blog/2022/10/performance-data-deep-dive", "icone": "grafico"},
         {"t": "Common Crawl: web graph por host e domínio", "href": "https://commoncrawl.org/blog/host--and-domain-level-web-graphs-may-june-and-july-2026", "icone": "camadas"}
       ]

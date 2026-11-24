@@ -52,20 +52,20 @@
     {
       "tipo": "codigo",
       "titulo": "Importar e cruzar",
-      "sub": "Rode a partir da pasta ferramentas/bing-ia. O exemplo do repositório usa CSV FICTÍCIOS (números inventados, URLs reais do inema.pro) cruzados com o banco real da aula 4.",
+      "sub": "Rode a partir da pasta ferramentas/bing-ia. O exemplo do repositório usa CSV FICTÍCIOS (números inventados, URLs reais do ARCKHÉ.pro) cruzados com o banco real da aula 4.",
       "blocos": [
         {"rot": "Terminal · importar os exports", "icone": "terminal",
          "conteudo": "cd ferramentas/bing-ia\npython3 bing_ia.py importar ../../exemplos/bing-ia/entrada/*.csv --db dados/bing.sqlite"},
         {"rot": "Terminal · cruzar com o gsc-historico", "icone": "terminal",
-         "conteudo": "python3 bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site inema.pro --saida saida/inema.pro"},
+         "conteudo": "python3 bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site ARCKHÉ.pro --saida saida/ARCKHÉ.pro"},
         {"rot": "Terminal · quando a ferramenta não reconhece as colunas", "icone": "terminal",
          "conteudo": "python3 bing_ia.py importar meu-export-paginas.csv --tipo paginas --colunas \"url=<coluna da URL>,citacoes=<coluna das citações>,data=<coluna da data>\" --db dados/bing.sqlite\npython3 bing_ia.py importar meu-export-consultas.csv --tipo consultas --colunas \"consulta=<coluna da consulta>,citacoes=<coluna das citações>\" --db dados/bing.sqlite"}
       ],
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Saída capturada (19/10/2026)", "html": "<p>Comando real, <b>dados fictícios</b> (exemplo do repositório):</p><pre>FICTICIO_ai-performance-grounding-queries.csv: 6 linha(s) de consultas (colunas {'citacoes': 'Citations', 'consulta': 'Grounding Query', 'data': 'Date'}) → dados/bing.sqlite\nFICTICIO_ai-performance-paginas.csv: 6 linha(s) de paginas (colunas {'url': 'Page', 'citacoes': 'Citations', 'data': 'Date'}) → dados/bing.sqlite\n38 citações em 5 página(s), 6 grounding queries, 4 ideia(s), citadas sem clique no Google 5, clique sem citação 1 → saida/inema.pro/relatorio.html</pre>"},
-          {"rot": "As listas (fictício)", "html": "<p><code>paginas.csv</code>, grupo \"sem clique\" (citações fictícias × Google real):</p><pre>sem_clique,…/en/noticias/slopmonster/,23 citações,0 cliques,189 impr.\nsem_clique,…/en/noticias/openai-dots/,6 citações,0 cliques,15 impr.\nsem_clique,https://eventos.inema.pro/oswork/,3 citações,0 cliques,0 impr.</pre><p><code>ideias.csv</code>:</p><pre>what is slopmonster ai,7\nopenai dots agent,5\nclaude opus 5.5 benchmarks,4\nhow to manage ai agents in a company,2</pre>"},
+          {"rot": "Saída capturada (19/10/2026)", "html": "<p>Comando real, <b>dados fictícios</b> (exemplo do repositório):</p><pre>FICTICIO_ai-performance-grounding-queries.csv: 6 linha(s) de consultas (colunas {'citacoes': 'Citations', 'consulta': 'Grounding Query', 'data': 'Date'}) → dados/bing.sqlite\nFICTICIO_ai-performance-paginas.csv: 6 linha(s) de paginas (colunas {'url': 'Page', 'citacoes': 'Citations', 'data': 'Date'}) → dados/bing.sqlite\n38 citações em 5 página(s), 6 grounding queries, 4 ideia(s), citadas sem clique no Google 5, clique sem citação 1 → saida/ARCKHÉ.pro/relatorio.html</pre>"},
+          {"rot": "As listas (fictício)", "html": "<p><code>paginas.csv</code>, grupo \"sem clique\" (citações fictícias × Google real):</p><pre>sem_clique,…/en/noticias/slopmonster/,23 citações,0 cliques,189 impr.\nsem_clique,…/en/noticias/openai-dots/,6 citações,0 cliques,15 impr.\nsem_clique,https://eventos.ARCKHÉ.pro/oswork/,3 citações,0 cliques,0 impr.</pre><p><code>ideias.csv</code>:</p><pre>what is slopmonster ai,7\nopenai dots agent,5\nclaude opus 5.5 benchmarks,4\nhow to manage ai agents in a company,2</pre>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Tratar citação como posição</b>: o Bing diz que é amostra e não tem clique.</li><li><b>Confiar nos nomes de coluna</b>: Page, Citations, Grounding Query e Date são palpite, a confirmar com um export real; se a ferramenta parar, use --colunas.</li><li><b>Esperar o Topics Portfolio</b>: o beta de 13/10/2026 não é lido aqui.</li></ul>"}
         ]
       }
@@ -115,7 +115,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "bing-ia: README", "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/bing-ia", "icone": "terminal"},
+        {"t": "bing-ia: README", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/bing-ia", "icone": "terminal"},
         {"t": "Bing: anúncio do AI Performance (02/2026)", "href": "https://blogs.bing.com/webmaster/2026/02/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview", "icone": "robo"},
         {"t": "Bing Webmaster Tools", "href": "https://www.bing.com/webmasters/", "icone": "nuvem"}
       ]

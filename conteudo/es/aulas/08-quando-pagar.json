@@ -140,7 +140,7 @@
         {
           "rot": "Mi plan de herramientas (modelo)",
           "icone": "camadas",
-          "conteudo": "# Herramientas — <tusitio.com>\nnúcleo gratis (siempre): Search Console, Bing Webmaster, IndexNow, inemaseo-sistemas (5), agente por la suscripción\nsemana: gsc-historico + lectura del agente + decisoes.md\nmes: auditor, agente-ready, bing-ia (export), botlog (log filtrado), batería manual de preguntas en las IAs\npago (opcional, con tope): <ninguno | proveedor + pregunta + mes>"
+          "conteudo": "# Herramientas — <tusitio.com>\nnúcleo gratis (siempre): Search Console, Bing Webmaster, IndexNow, ARCKHÉseo-sistemas (5), agente por la suscripción\nsemana: gsc-historico + lectura del agente + decisoes.md\nmes: auditor, agente-ready, bing-ia (export), botlog (log filtrado), batería manual de preguntas en las IAs\npago (opcional, con tope): <ninguno | proveedor + pregunta + mes>"
         }
       ]
     },
@@ -369,7 +369,7 @@
       "tipo": "gerador",
       "titulo": "Genera tu plan con fechas",
       "sub": "Elige la fecha de inicio y cuánto tiempo tienes por semana.",
-      "curso": "inemaSEO 7 · Sistemas",
+      "curso": "ARCKHÉSEO 7 · Sistemas",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -406,7 +406,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 7 · Sistemas",
+        "titulo": "Plan — ARCKHÉSEO 7 · Sistemas",
         "inicio": "Inicio",
         "ritmo": "Ritmo",
         "termino": "Fecha prevista de término",
@@ -512,8 +512,8 @@
           "icone": "nuvem"
         },
         {
-          "t": "Área inemaSEO",
-          "href": "https://eventos.inema.pro/inemaseo/",
+          "t": "Área ARCKHÉSEO",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/",
           "icone": "lupa"
         }
       ]

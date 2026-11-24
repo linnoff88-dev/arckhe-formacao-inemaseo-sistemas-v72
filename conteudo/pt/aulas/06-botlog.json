@@ -66,7 +66,7 @@
         "selo": "real",
         "abas": [
           {"rot": "Saída capturada (19/10/2026)", "html": "<pre>26 linhas, 22 de robô (treino 6, busca 5, buscador 4, usuario 3); falsos 4; nunca visitadas 1/6 → saida/montado/relatorio.html</pre><p>Do <code>robos.csv</code> (amostra montada):</p><pre>robo           finalidade  acessos autênticos falsos erros\nGPTBot         treino      5       3          2      2\nClaudeBot      treino      3       3          0      2\nGooglebot      buscador    3       2          1      0\nOAI-SearchBot  busca       3       3          0      0\nPerplexityBot  busca       2       1          1      0</pre><p>Os 2 erros do ClaudeBot simulam bloqueio de CDN (403).</p>"},
-          {"rot": "Log real filtrado (19/10/2026)", "html": "<p>Log do nginx de desenho.inema.pro, 05/10 a 19/10/2026, já passado pelo <code>filtrar</code> (o original tinha 3.082 linhas; ficaram 8, só robôs com IP oficial):</p><pre>8 linhas, 8 de robô (treino 6, busca 2); falsos 0; nunca visitadas 0/1 → saida/real/relatorio.html</pre><p>E o <code>filtrar</code> na amostra montada:</p><pre>16 de 23 linha(s) mantidas (só robôs com IP oficial) → /tmp/so-robos.log</pre>"},
+          {"rot": "Log real filtrado (19/10/2026)", "html": "<p>Log do nginx de desenho.ARCKHÉ.pro, 05/10 a 19/10/2026, já passado pelo <code>filtrar</code> (o original tinha 3.082 linhas; ficaram 8, só robôs com IP oficial):</p><pre>8 linhas, 8 de robô (treino 6, busca 2); falsos 0; nunca visitadas 0/1 → saida/real/relatorio.html</pre><p>E o <code>filtrar</code> na amostra montada:</p><pre>16 de 23 linha(s) mantidas (só robôs com IP oficial) → /tmp/so-robos.log</pre>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Contar pelo User-Agent</b>: sem conferir IP, falso robô vira \"acesso de IA\".</li><li><b>Procurar Google-Extended no log</b>: ele não aparece; é token de robots.txt.</li><li><b>Olhar só o log do servidor atrás de CDN</b>: ele vê só o que passou pela CDN, às vezes com o IP dela. Use o log da CDN.</li><li><b>Publicar o log inteiro</b>: IP de pessoa é dado pessoal; filtre antes.</li></ul>"}
         ]
       }
@@ -116,7 +116,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "botlog: README e listas oficiais", "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/botlog", "icone": "terminal"},
+        {"t": "botlog: README e listas oficiais", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/botlog", "icone": "terminal"},
         {"t": "Anthropic: ClaudeBot, Claude-User e Claude-SearchBot", "href": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler", "icone": "robo"},
         {"t": "Google: verificar o Googlebot", "href": "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot", "icone": "escudo"}
       ]

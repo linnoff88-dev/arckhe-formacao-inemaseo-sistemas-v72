@@ -1,30 +1,30 @@
 {
-  "id": "formacao-inemaseo-sistemas-v72",
+  "id": "formacao-ARCKHÉseo-sistemas-v72",
   "lang": "en",
-  "url": "https://inematds.github.io/formacao-inemaseo-sistemas-v72/en/",
-  "nome": "inemaSEO 7 — Systems: build your own open Semrush",
-  "sub": "inemaSEO Program · course 7 of 7",
+  "url": "https://linnoff88-dev.github.io/
+  "nome": "ARCKHÉSEO 7 — Systems: build your own open Semrush",
+  "sub": "ARCKHÉSEO Program · course 7 of 7",
   "volta": {
-    "t": "inemaSEO Area",
-    "href": "https://eventos.inema.pro/inemaseo/"
+    "t": "ARCKHÉSEO Area",
+    "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/"
   },
   "lado_card": {
-    "rot": "inemaSEO Program",
+    "rot": "ARCKHÉSEO Program",
     "t": "Course 7 of 7",
     "texto": "Tools measure; the groundwork and the content are what change the number. If you haven't yet, start with course 1.",
     "link": "Go to course 1",
-    "href": "https://inematds.github.io/formacao-inemaseo-fundacao-v72/"
+    "href": "https://linnoff88-dev.github.io/
   },
-  "rodape": "INEMA.CLUB · open and free content · INEMA Learning format v7.2 · <a href=\"https://eventos.inema.pro/inemaseo/\">eventos.inema.pro/inemaseo</a> · <a href=\"https://github.com/inematds/inemaseo-sistemas\">inemaseo-sistemas (MIT)</a> · <a href=\"https://inema.club/\">inema.club</a>",
+  "rodape": "ARCKHÉ AI · open and free content · ARCKHÉ Learning format v7.2 · <a href=\"https://eventos.ARCKHÉ.pro/ARCKHÉseo/\">eventos.ARCKHÉ.pro/ARCKHÉseo</a> · <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-sistemas\">ARCKHÉseo-sistemas (MIT)</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {},
   "inicio": {
-    "kicker": "inemaSEO Program · course 7 of 7 · 8 lessons",
+    "kicker": "ARCKHÉSEO Program · course 7 of 7 · 8 lessons",
     "titulo": "Systems: build your own open Semrush",
     "lead": "Five open, free terminal tools that do for your site what the paid suites do: a full-site audit, an AI readiness score, Search Console history, Bing AI citations, and AI bots in the log. In eight lessons you run each one, tie everything into a routine with an agent, and decide, with clear criteria, when it's worth paying.",
     "cta": "Start with lesson 1",
     "cta2": {
-      "t": "See the inemaseo-sistemas repository",
-      "href": "https://github.com/inematds/inemaseo-sistemas"
+      "t": "See the ARCKHÉseo-sistemas repository",
+      "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas"
     },
     "capa_alt": "Laptop with an open terminal on a dark desk, with the course title: build your own open Semrush.",
     "numeros": [
@@ -66,11 +66,11 @@
         ]
       },
       {
-        "t": "Where this course fits in the inemaSEO Program",
+        "t": "Where this course fits in the ARCKHÉSEO Program",
         "itens": [
           "<b>1 Foundation</b>, <b>2 Content</b>, and <b>3 Measurement</b>: the technical groundwork, the pages only you can write, and the search numbers without your brand.",
           "<b>4 In the AIs</b>, <b>5 With Agents</b>, and <b>6 Professional</b>: official AI dashboards, agents on the repetitive work, and SEO as a service.",
-          "<b>7 Systems</b> (this course): the tools that measure all of this, open at <a href=\"https://github.com/inematds/inemaseo-sistemas\">inemaseo-sistemas</a>. You can take it after course 1."
+          "<b>7 Systems</b> (this course): the tools that measure all of this, open at <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-sistemas\">ARCKHÉseo-sistemas</a>. You can take it after course 1."
         ]
       }
     ]

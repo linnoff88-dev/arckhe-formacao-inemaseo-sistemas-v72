@@ -23,7 +23,7 @@
       "t": "Lo que solo existe de pago: volumen exacto, competidor, backlinks completos"
     },
     {
-      "t": "Descargar el inemaseo-sistemas y comprobar que todo funciona"
+      "t": "Descargar el ARCKHÉseo-sistemas y comprobar que todo funciona"
     }
   ],
   "hero_alt": "Mapa dibujado a mano con cajas y flechas sobre una mesa, con lápiz y regla al lado.",
@@ -142,7 +142,7 @@
         {
           "rot": "Terminal · descargar",
           "icone": "git",
-          "conteudo": "git clone https://github.com/inematds/inemaseo-sistemas && cd inemaseo-sistemas\npython3 --version"
+          "conteudo": "git clone https://github.com/linnoff88-dev/ARCKHÉseo-sistemas && cd ARCKHÉseo-sistemas\npython3 --version"
         },
         {
           "rot": "Terminal · ejecutar las pruebas (sin red)",
@@ -182,7 +182,7 @@
           "id": "e1",
           "titulo": "E1 · Descargar y probar",
           "min": "10 min",
-          "texto": "Clona inemaseo-sistemas y ejecuta las pruebas de las 5 herramientas.",
+          "texto": "Clona ARCKHÉseo-sistemas y ejecuta las pruebas de las 5 herramientas.",
           "pronto": "la terminal muestra OK cinco veces, una por herramienta."
         },
         {
@@ -273,8 +273,8 @@
       "titulo": "Para ir más allá",
       "links": [
         {
-          "t": "inemaseo-sistemas en GitHub (MIT)",
-          "href": "https://github.com/inematds/inemaseo-sistemas",
+          "t": "ARCKHÉseo-sistemas en GitHub (MIT)",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas",
           "icone": "git"
         },
         {

@@ -140,7 +140,7 @@
         {
           "rot": "My tools plan (template)",
           "icone": "camadas",
-          "conteudo": "# Tools — <yoursite.com>\nfree core (always): Search Console, Bing Webmaster, IndexNow, inemaseo-sistemas (5), agent via subscription\nweek: gsc-historico + agent reading + decisoes.md\nmonth: auditor, agente-ready, bing-ia (export), botlog (filtered log), manual battery of questions in the AIs\npaid (optional, with a cap): <none | vendor + question + month>"
+          "conteudo": "# Tools — <yoursite.com>\nfree core (always): Search Console, Bing Webmaster, IndexNow, ARCKHÉseo-sistemas (5), agent via subscription\nweek: gsc-historico + agent reading + decisoes.md\nmonth: auditor, agente-ready, bing-ia (export), botlog (filtered log), manual battery of questions in the AIs\npaid (optional, with a cap): <none | vendor + question + month>"
         }
       ]
     },
@@ -369,7 +369,7 @@
       "tipo": "gerador",
       "titulo": "Generate your dated plan",
       "sub": "Choose the start date and how much time you have per week.",
-      "curso": "inemaSEO 7 · Systems",
+      "curso": "ARCKHÉSEO 7 · Systems",
       "horas_padrao": 3,
       "degraus": [
         {
@@ -406,7 +406,7 @@
         }
       ],
       "txt": {
-        "titulo": "Plan — inemaSEO 7 · Systems",
+        "titulo": "Plan — ARCKHÉSEO 7 · Systems",
         "inicio": "Start",
         "ritmo": "Pace",
         "termino": "Expected completion",
@@ -512,8 +512,8 @@
           "icone": "nuvem"
         },
         {
-          "t": "inemaSEO Area",
-          "href": "https://eventos.inema.pro/inemaseo/",
+          "t": "ARCKHÉSEO Area",
+          "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/",
           "icone": "lupa"
         }
       ]

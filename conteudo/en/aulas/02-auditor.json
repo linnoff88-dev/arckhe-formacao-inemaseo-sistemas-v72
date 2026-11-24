@@ -37,7 +37,7 @@
           "icone": "nuvem",
           "titulo": "Starting URL",
           "sub": "home or folder",
-          "detalhe": "You pass the home page (or a guide's folder on github.io). If it redirects to another host, like inema.club to www.inema.club, it follows the destination. The scope is the same host and the same folder."
+          "detalhe": "You pass the home page (or a guide's folder on github.io). If it redirects to another host, like ARCKHÉ AI to www.ARCKHÉ AI, it follows the destination. The scope is the same host and the same folder."
         },
         {
           "icone": "cadeado",
@@ -141,7 +141,7 @@
     {
       "tipo": "codigo",
       "titulo": "The auditor commands",
-      "sub": "Run from the ferramentas/auditor folder of inemaseo-sistemas.",
+      "sub": "Run from the ferramentas/auditor folder of ARCKHÉseo-sistemas.",
       "blocos": [
         {
           "rot": "Terminal · your site",
@@ -164,7 +164,7 @@
         "abas": [
           {
             "rot": "Captured output (10/19/2026)",
-            "html": "<p><code>python3 auditor.py https://inema.club --max 50</code> (without -q, shortened list):</p><pre>  [ 1/50] 200 https://www.inema.club/\n  [ 2/50] 200 https://www.inema.club/en/\n  (…)\n  [50/50] 200 https://www.inema.club/conhecimento/metodologia-de-ensino-do-inema/\nwww.inema.club: 50 páginas, 0 crítico(s), 1 importante(s), 2 melhoria(s). Relatório: …/relatorio.html\n  [importante] Pouco texto no HTML entregue (&lt; 80 palavras)</pre><p>In <code>achados.csv</code>, the important finding points to two pages: <code>/conhecimento/curso-atia/ (77)</code> and <code>/conhecimento/curso-codex-basico/ (78)</code>. The JSON records 62 requests and 1,287 URLs still in the queue.</p>"
+            "html": "<p><code>python3 auditor.py https://ARCKHÉ AI --max 50</code> (without -q, shortened list):</p><pre>  [ 1/50] 200 https://www.ARCKHÉ AI/\n  [ 2/50] 200 https://www.ARCKHÉ AI/en/\n  (…)\n  [50/50] 200 https://www.ARCKHÉ AI/conhecimento/metodologia-de-ensino-do-ARCKHÉ/\nwww.ARCKHÉ AI: 50 páginas, 0 crítico(s), 1 importante(s), 2 melhoria(s). Relatório: …/relatorio.html\n  [importante] Pouco texto no HTML entregue (&lt; 80 palavras)</pre><p>In <code>achados.csv</code>, the important finding points to two pages: <code>/conhecimento/curso-atia/ (77)</code> and <code>/conhecimento/curso-codex-basico/ (78)</code>. The JSON records 62 requests and 1,287 URLs still in the queue.</p>"
           },
           {
             "rot": "robots and CDN (10/19/2026)",
@@ -278,7 +278,7 @@
       "links": [
         {
           "t": "auditor: README with all checks and sources",
-          "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/auditor",
+          "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/auditor",
           "icone": "terminal"
         },
         {

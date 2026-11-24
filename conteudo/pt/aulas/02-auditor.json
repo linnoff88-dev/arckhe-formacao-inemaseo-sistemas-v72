@@ -22,7 +22,7 @@
       "sub": "Só GET, uma requisição por segundo, no máximo as páginas que você pedir. Clique em cada etapa.",
       "nos": [
         {"icone": "nuvem", "titulo": "URL inicial", "sub": "home ou pasta",
-         "detalhe": "Você passa a home (ou a pasta de um guia no github.io). Se ela redireciona para outro host, como inema.club para www.inema.club, ele segue o destino. O escopo é o mesmo host e a mesma pasta."},
+         "detalhe": "Você passa a home (ou a pasta de um guia no github.io). Se ela redireciona para outro host, como ARCKHÉ AI para www.ARCKHÉ AI, ele segue o destino. O escopo é o mesmo host e a mesma pasta."},
         {"icone": "cadeado", "titulo": "robots.txt", "sub": "por finalidade",
          "detalhe": "Lê o robots.txt no formato da RFC 9309 (regra mais longa vence; empate fica com Allow) e diz o que cada robô pode: busca, ação do usuário e treino. Também respeita o robots.txt para o próprio nome dele."},
         {"icone": "fila", "titulo": "Fila", "sub": "sitemap + links",
@@ -57,7 +57,7 @@
     {
       "tipo": "codigo",
       "titulo": "Os comandos do auditor",
-      "sub": "Rode a partir da pasta ferramentas/auditor do inemaseo-sistemas.",
+      "sub": "Rode a partir da pasta ferramentas/auditor do ARCKHÉseo-sistemas.",
       "blocos": [
         {"rot": "Terminal · o seu site", "icone": "terminal",
          "conteudo": "cd ferramentas/auditor\npython3 auditor.py https://seusite.com --max 50 -q --saida auditoria/seusite"},
@@ -69,7 +69,7 @@
       "saida": {
         "selo": "real",
         "abas": [
-          {"rot": "Saída capturada (19/10/2026)", "html": "<p><code>python3 auditor.py https://inema.club --max 50</code> (sem -q, lista encurtada):</p><pre>  [ 1/50] 200 https://www.inema.club/\n  [ 2/50] 200 https://www.inema.club/en/\n  (…)\n  [50/50] 200 https://www.inema.club/conhecimento/metodologia-de-ensino-do-inema/\nwww.inema.club: 50 páginas, 0 crítico(s), 1 importante(s), 2 melhoria(s). Relatório: …/relatorio.html\n  [importante] Pouco texto no HTML entregue (&lt; 80 palavras)</pre><p>No <code>achados.csv</code>, o importante aponta duas fichas: <code>/conhecimento/curso-atia/ (77)</code> e <code>/conhecimento/curso-codex-basico/ (78)</code>. O JSON registra 62 requisições e 1.287 URLs ainda na fila.</p>"},
+          {"rot": "Saída capturada (19/10/2026)", "html": "<p><code>python3 auditor.py https://ARCKHÉ AI --max 50</code> (sem -q, lista encurtada):</p><pre>  [ 1/50] 200 https://www.ARCKHÉ AI/\n  [ 2/50] 200 https://www.ARCKHÉ AI/en/\n  (…)\n  [50/50] 200 https://www.ARCKHÉ AI/conhecimento/metodologia-de-ensino-do-ARCKHÉ/\nwww.ARCKHÉ AI: 50 páginas, 0 crítico(s), 1 importante(s), 2 melhoria(s). Relatório: …/relatorio.html\n  [importante] Pouco texto no HTML entregue (&lt; 80 palavras)</pre><p>No <code>achados.csv</code>, o importante aponta duas fichas: <code>/conhecimento/curso-atia/ (77)</code> e <code>/conhecimento/curso-codex-basico/ (78)</code>. O JSON registra 62 requisições e 1.287 URLs ainda na fila.</p>"},
           {"rot": "robots e CDN (19/10/2026)", "html": "<p>Do <code>auditoria.json</code> do mesmo rastreio:</p><pre>busca    Googlebot, Bingbot, OAI-SearchBot,\n         Claude-SearchBot, PerplexityBot   → liberados\nusuário  ChatGPT-User, Claude-User,\n         Perplexity-User                   → liberados (grupo *)\ntreino   GPTBot, ClaudeBot, Google-Extended → liberados\nCDN      OAI-SearchBot 200 · PerplexityBot 200\n         Perplexity-User 200 · GPTBot 200</pre><p>Num guia do GitHub Pages (<code>rea-engenharia-reversa/guia/</code>), o exemplo do repositório mostra \"robots.txt não existe\": o robots.txt que vale é o da raiz do host, de outro repositório.</p>"},
           {"rot": "Erros comuns", "html": "<ul><li><b>Ler \"órfã\" como verdade absoluta</b>: com --max 50 num site de 1.000 URLs, órfã quer dizer \"sem link nas 50 páginas lidas\".</li><li><b>Achar que mede velocidade</b>: Core Web Vitals e backlinks ficam de fora; use PageSpeed e a Inspeção de URL.</li><li><b>Confiar só no teste de CDN</b>: ele vê regra por User-Agent; CDN que confere o IP do robô real pode agir diferente.</li></ul>"}
         ]
@@ -120,7 +120,7 @@
       "tipo": "links",
       "titulo": "Para ir além",
       "links": [
-        {"t": "auditor: README com todas as checagens e fontes", "href": "https://github.com/inematds/inemaseo-sistemas/tree/main/ferramentas/auditor", "icone": "terminal"},
+        {"t": "auditor: README com todas as checagens e fontes", "href": "https://github.com/linnoff88-dev/ARCKHÉseo-sistemas/tree/main/ferramentas/auditor", "icone": "terminal"},
         {"t": "Google: como o robots.txt é interpretado", "href": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt", "icone": "cadeado"},
         {"t": "OpenAI: os robôs e seus User-Agents", "href": "https://platform.openai.com/docs/bots", "icone": "robo"}
       ]
