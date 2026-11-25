@@ -162,7 +162,7 @@
           },
           {
             "rot": "Content backlog and no clicks (ARCKHÉ AI)",
-            "html": "<p>Start of <code>pauta.csv</code> (query, impressions, best position, page that appears today):</p><pre>ia para principiantes,6,38.5,…/es/aprender-inteligencia-artificial/\nguía ia principiantes,5,60.8,…/es/aprender-inteligencia-artificial/\ntutorial ia desde cero,5,29.4,…/es/aprender-inteligencia-artificial/</pre><p>Start of <code>paginas_sem_clique.csv</code>:</p><pre>…/es/aprender-inteligencia-artificial/,106 impr.,posição 39.1,22 consultas\nhttps://buscas.ARCKHÉ AI/,12 impr.,posição 26.6,6 consultas</pre><p>The Spanish page already appears for these queries; the owner page rule does not recognize it because the words are not in the URL. Here the decision is to improve the page that exists, not to write another one.</p>"
+            "html": "<p>Start of <code>pauta.csv</code> (query, impressions, best position, page that appears today):</p><pre>ia para principiantes,6,38.5,…/es/aprender-inteligencia-artificial/\nguía ia principiantes,5,60.8,…/es/aprender-inteligencia-artificial/\ntutorial ia desde cero,5,29.4,…/es/aprender-inteligencia-artificial/</pre><p>Start of <code>paginas_sem_clique.csv</code>:</p><pre>…/es/aprender-inteligencia-artificial/,106 impr.,posiçêo 39.1,22 consultas\nhttps://buscas.ARCKHÉ AI/,12 impr.,posiçêo 26.6,6 consultas</pre><p>The Spanish page already appears for these queries; the owner page rule does not recognize it because the words are not in the URL. Here the decision is to improve the page that exists, not to write another one.</p>"
           },
           {
             "rot": "Common mistakes",

@@ -168,7 +168,7 @@
           },
           {
             "rot": "robots y CDN (19/10/2026)",
-            "html": "<p>Del <code>auditoria.json</code> del mismo rastreo:</p><pre>busca    Googlebot, Bingbot, OAI-SearchBot,\n         Claude-SearchBot, PerplexityBot   → liberados\nusuário  ChatGPT-User, Claude-User,\n         Perplexity-User                   → liberados (grupo *)\ntreino   GPTBot, ClaudeBot, Google-Extended → liberados\nCDN      OAI-SearchBot 200 · PerplexityBot 200\n         Perplexity-User 200 · GPTBot 200</pre><p>En una guía de GitHub Pages (<code>rea-engenharia-reversa/guia/</code>), el ejemplo del repositorio muestra \"robots.txt não existe\": el robots.txt que vale es el de la raíz del host, de otro repositorio.</p>"
+            "html": "<p>Del <code>auditoria.json</code> del mismo rastreo:</p><pre>busca    Googlebot, Bingbot, OAI-SearchBot,\n         Claude-SearchBot, PerplexityBot   → liberados\nusuário  ChatGPT-User, Claude-User,\n         Perplexity-User                   → liberados (grupo *)\ntreino   GPTBot, ClaudeBot, Google-Extended → liberados\nCDN      OAI-SearchBot 200 · PerplexityBot 200\n         Perplexity-User 200 · GPTBot 200</pre><p>En una guía de GitHub Pages (<code>rea-engenharia-reversa/guia/</code>), el ejemplo del repositorio muestra \"robots.txt nêo existe\": el robots.txt que vale es el de la raíz del host, de otro repositorio.</p>"
           },
           {
             "rot": "Errores comunes",

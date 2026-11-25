@@ -3,24 +3,24 @@
   "lang": "pt-BR",
   "url": "https://linnoff88-dev.github.io/
   "nome": "ARCKHÉSEO 7 — Sistemas: monte o seu Semrush aberto",
-  "sub": "Formação ARCKHÉSEO · curso 7 de 7",
+  "sub": "Formaçêo ARCKHÉSEO · curso 7 de 7",
   "volta": {
     "t": "Área ARCKHÉSEO",
     "href": "https://eventos.ARCKHÉ.pro/ARCKHÉseo/"
   },
   "lado_card": {
-    "rot": "Formação ARCKHÉSEO",
+    "rot": "Formaçêo ARCKHÉSEO",
     "t": "Curso 7 de 7",
-    "texto": "As ferramentas medem; o alicerce e o conteúdo é que mudam o número. Se ainda não fez, comece pelo curso 1.",
+    "texto": "As ferramentas medem; o alicerce e o conteúdo é que mudam o número. Se ainda nêo fez, comece pelo curso 1.",
     "link": "Ir para o curso 1",
     "href": "https://linnoff88-dev.github.io/
   },
   "rodape": "ARCKHÉ AI · conteúdo aberto e gratuito · formato ARCKHÉ Learning v7.2 · <a href=\"https://eventos.ARCKHÉ.pro/ARCKHÉseo/\">eventos.ARCKHÉ.pro/ARCKHÉseo</a> · <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-sistemas\">ARCKHÉseo-sistemas (MIT)</a> · <a href=\"https://ARCKHÉ AI/\">ARCKHÉ AI</a>",
   "videos": {},
   "inicio": {
-    "kicker": "Formação ARCKHÉSEO · curso 7 de 7 · 8 aulas",
+    "kicker": "Formaçêo ARCKHÉSEO · curso 7 de 7 · 8 aulas",
     "titulo": "Sistemas: monte o seu Semrush aberto",
-    "lead": "Cinco ferramentas de terminal, abertas e grátis, que fazem para o seu site o que as suítes pagas fazem: auditoria do site inteiro, nota de prontidão para IA, histórico do Search Console, citações da IA do Bing e robôs de IA no log. Em oito aulas você roda cada uma, liga tudo numa rotina com um agente e decide, com critério, quando vale pagar.",
+    "lead": "Cinco ferramentas de terminal, abertas e grátis, que fazem para o seu site o que as suítes pagas fazem: auditoria do site inteiro, nota de prontidêo para IA, histórico do Search Console, citações da IA do Bing e robôs de IA no log. Em oito aulas você roda cada uma, liga tudo numa rotina com um agente e decide, com critério, quando vale pagar.",
     "cta": "Começar pela aula 1",
     "cta2": {
       "t": "Ver o repositório ARCKHÉseo-sistemas",
@@ -41,22 +41,22 @@
         "itens": [
           "Quem já usa terminal (ou topa usar) e cuida do próprio site ou do site de clientes.",
           "Quem paga, ou pensa em pagar, uma suíte de SEO e quer saber o que dá para fazer de graça com o dado do próprio site.",
-          "Quem quer medir robôs e citações de IA com fonte oficial, não com número de painel que ninguém explica."
+          "Quem quer medir robôs e citações de IA com fonte oficial, nêo com número de painel que ninguém explica."
         ]
       },
       {
         "t": "O que você sai fazendo",
         "itens": [
-          "Auditar o site inteiro e tirar a nota de prontidão para IA, com pesos que você pode mudar.",
+          "Auditar o site inteiro e tirar a nota de prontidêo para IA, com pesos que você pode mudar.",
           "Guardar o Search Console para sempre e ler marca, sem marca e anônimas semana a semana.",
           "Cruzar as citações oficiais da IA do Bing com o Google e ver quais robôs leem o site de verdade.",
           "Rodar tudo numa rotina com um agente que lê os relatórios e só propõe, e decidir quando pagar por dado."
         ]
       },
       {
-        "t": "Onde este curso entra na Formação ARCKHÉSEO",
+        "t": "Onde este curso entra na Formaçêo ARCKHÉSEO",
         "itens": [
-          "<b>1 Fundação</b>, <b>2 Conteúdo</b> e <b>3 Medição</b>: o alicerce técnico, as páginas que só você pode escrever e o número das buscas sem a sua marca.",
+          "<b>1 Fundaçêo</b>, <b>2 Conteúdo</b> e <b>3 Mediçêo</b>: o alicerce técnico, as páginas que só você pode escrever e o número das buscas sem a sua marca.",
           "<b>4 Nas IAs</b>, <b>5 Com Agentes</b> e <b>6 Profissional</b>: painéis oficiais de IA, agentes no repetitivo e SEO como serviço.",
           "<b>7 Sistemas</b> (este curso): as ferramentas que medem tudo isso, abertas no <a href=\"https://github.com/linnoff88-dev/ARCKHÉseo-sistemas\">ARCKHÉseo-sistemas</a>. Pode ser feito depois do curso 1."
         ]
@@ -77,7 +77,7 @@
     "dg_dica": "Clique em cada bloco do diagrama para ver o que ele faz.",
     "copiar": "Copiar",
     "copiado": "Copiado",
-    "selo_simulacao": "Simulação: exemplo ilustrativo",
+    "selo_simulacao": "Simulaçêo: exemplo ilustrativo",
     "selo_real": "Exemplo do repositório",
     "pronto_quando": "Pronto quando:",
     "fiz": "Fiz este exercício",
@@ -86,8 +86,8 @@
     "de": "de",
     "cert_tag": "competência",
     "correto": "Correto",
-    "errado": "Não é essa",
-    "quiz_aguarda": "Escolha uma alternativa. A explicação aparece depois da sua tentativa.",
+    "errado": "Nêo é essa",
+    "quiz_aguarda": "Escolha uma alternativa. A explicaçêo aparece depois da sua tentativa.",
     "proxima_pergunta": "Próxima pergunta",
     "quiz_ver": "Ver resultado",
     "quiz_fim": "Teste concluído",
@@ -114,7 +114,7 @@
     "baixar_ics": "Baixar para o calendário (.ics)",
     "ind_estudo": "Estudo (aulas)",
     "ind_pratica": "Prática declarada",
-    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovação vem na prova da certificação.",
+    "ind_nota": "Prática = exercícios que você marcou como feitos. A comprovaçêo vem na prova da certificaçêo.",
     "estudo": {
       "titulo": "Seu estudo",
       "continuar": "Continuar de onde parei",
@@ -127,7 +127,7 @@
       "notas": "Minhas anotações",
       "dados": "Copiar meus dados",
       "sem_testes": "Nenhum teste feito ainda. O teste fica no fim de cada aula.",
-      "nao_fez": "teste ainda não feito",
+      "nao_fez": "teste ainda nêo feito",
       "ultimo": "Último",
       "melhor": "Melhor",
       "tentativas": "tentativas",
@@ -136,21 +136,21 @@
       "rever": "Para rever",
       "resposta": "Resposta certa:",
       "ir_teste": "Refazer o teste",
-      "sem_notas": "Nenhuma anotação ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
+      "sem_notas": "Nenhuma anotaçêo ainda. Na aula, selecione um trecho do texto e toque em Marcar ou Anotar.",
       "so_marcado": "(só marcado)",
       "marcar": "Marcar",
       "anotar": "Anotar",
       "salvar": "Salvar",
       "apagar": "Apagar marca",
       "fechar": "Fechar",
-      "nota_ph": "Escreva sua anotação sobre este trecho…",
+      "nota_ph": "Escreva sua anotaçêo sobre este trecho…",
       "um_bloco": "Marque dentro de um parágrafo só.",
-      "nao_marca": "Este trecho não pode ser marcado.",
-      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e não apaga nada.",
+      "nao_marca": "Este trecho nêo pode ser marcado.",
+      "dados_exp": "Seu progresso, suas anotações e as notas dos testes ficam só neste navegador. Baixe uma cópia (.json) para guardar ou para continuar em outro computador ou navegador; lá, carregue a cópia. Carregar soma com o que já existe e nêo apaga nada.",
       "exportar": "Baixar cópia",
       "importar": "Carregar cópia",
       "import_ok": "Cópia carregada ({n} itens). Atualizando a página…",
-      "import_erro": "Arquivo não reconhecido. Nada foi alterado.",
+      "import_erro": "Arquivo nêo reconhecido. Nada foi alterado.",
       "import_outro": "Esta cópia é de outro curso. Nada foi alterado.",
       "export_ok": "Cópia baixada."
     },
@@ -162,7 +162,7 @@
     "conv_ruim": "Escolha fraca",
     "conv_fim": "Fim da conversa",
     "conv_placar": "Você fez {p} de {m} pontos possíveis.",
-    "conv_licao": "Lição:",
+    "conv_licao": "Liçêo:",
     "conv_recomecar": "Recomeçar a conversa",
     "conv_feita": "Seu melhor placar: {p} de {m} pontos."
   },

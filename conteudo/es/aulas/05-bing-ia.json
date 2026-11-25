@@ -147,7 +147,7 @@
         "abas": [
           {
             "rot": "Salida capturada (19/10/2026)",
-            "html": "<p>Comando real, <b>datos ficticios</b> (ejemplo del repositorio):</p><pre>FICTICIO_ai-performance-grounding-queries.csv: 6 linha(s) de consultas (colunas {'citacoes': 'Citations', 'consulta': 'Grounding Query', 'data': 'Date'}) → dados/bing.sqlite\nFICTICIO_ai-performance-paginas.csv: 6 linha(s) de paginas (colunas {'url': 'Page', 'citacoes': 'Citations', 'data': 'Date'}) → dados/bing.sqlite\n38 citações em 5 página(s), 6 grounding queries, 4 ideia(s), citadas sem clique no Google 5, clique sem citação 1 → saida/ARCKHÉ.pro/relatorio.html</pre>"
+            "html": "<p>Comando real, <b>datos ficticios</b> (ejemplo del repositorio):</p><pre>FICTICIO_ai-performance-grounding-queries.csv: 6 linha(s) de consultas (colunas {'citacoes': 'Citations', 'consulta': 'Grounding Query', 'data': 'Date'}) → dados/bing.sqlite\nFICTICIO_ai-performance-paginas.csv: 6 linha(s) de paginas (colunas {'url': 'Page', 'citacoes': 'Citations', 'data': 'Date'}) → dados/bing.sqlite\n38 citações em 5 página(s), 6 grounding queries, 4 ideia(s), citadas sem clique no Google 5, clique sem citaçêo 1 → saida/ARCKHÉ.pro/relatorio.html</pre>"
           },
           {
             "rot": "Las listas (ficticio)",
